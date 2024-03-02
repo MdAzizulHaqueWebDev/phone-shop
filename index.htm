@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="download.jpeg">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Phone shop</title>
+</head>
+<body class="container mx-auto">
+<header>
+<nav class="flex justify-between mt-10">
+<a href="#not data available"> <h2 class="text-2xl font-bold">Hot Gadgets</h2></a>
+<div><button class="btn btn-accent">sign up</button></div>
+</nav>
+<section class=" text-center space-y-4">
+<h2 class="text-4xl font-extrabold">Apple Iphone 13 Pro Max</h2>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+<a href="#buy"><button  class="btn btn-accent mt-3">buy now</button> </a>
+
+<div class="flex justify-center mt-2">
+  <img src="download.jpeg" width="200" height="200" alt="">
+</div>
+</section>
+</header>
+<main> 
+    <section id="buy" class="mt-5 text-center">
+        <input id="input-field" type="text" placeholder="Type here" class="input input-bordered input-primary w-1/2 " />
+        <button onclick="handleSearchBar()" class="btn btn-primary btn-active">Search</button>
+    </section>
+    <section class="grid grid-cols-3 gap-4 mt-5" id="phone-container" >
+    </section>
+    <!-- modal -->
+    <section>
+<dialog id="my_modal_4" class="modal"></dialog>
+    </section>
+
+
+</main>
+<footer>  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
